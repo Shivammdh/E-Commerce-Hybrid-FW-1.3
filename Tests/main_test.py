@@ -2,8 +2,6 @@ import os
 import sys
 import time
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
 from Pages.amazone_page import AmazonPage
 from Pages.croma_page import CromaPage
 from Pages.display_page import Display
