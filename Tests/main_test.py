@@ -49,7 +49,7 @@ class EcommerceTest(unittest.TestCase):
         if excu == 'Local':
             # logging.info(f"Starting Program in {excu}, Please wait ...")
             if browser == 'chrome':
-                cls.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),options=option)
+                cls.driver = webdriver.Chrome(options=option)
                 cls.driver.implicitly_wait(30)
             elif browser == 'firefox':
                 cls.driver = webdriver.Firefox(options=option)
