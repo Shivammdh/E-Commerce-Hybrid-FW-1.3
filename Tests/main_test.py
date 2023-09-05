@@ -33,8 +33,8 @@ class EcommerceTest(unittest.TestCase):
         cls.hbflag=False
         cls.excu = excu
         cls.browser = browser
-        cls.product_name = input("\nEnter product name: ")
-        cls.product_name="OnePlus 11 5G"
+        cls.product_name = input("Enter product name: ")
+        # cls.product_name="OnePlus 11 5G"
         # create a webdriver object for chrome-option and configure
         option = webdriver.ChromeOptions()
         option.page_load_strategy = 'normal'
